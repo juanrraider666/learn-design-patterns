@@ -7,7 +7,7 @@
  * @date 5/31/2024
  * @version 1.0.0
  */
-interface NotificationDecorator {
+interface NotificationComponentDecorator {
 
     public function notify(string $message): void;
 }
